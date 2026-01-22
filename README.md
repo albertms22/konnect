@@ -1,25 +1,6 @@
-<div align="center">
-  <br />
-    <a href="https://youtu.be/PuOVqP_cjkE?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/banking/assets/151519281/3c03519c-7ebd-4539-b598-49e63d1770b4" alt="Project Banner">
-    </a>
-  <br />
-  
-  <div>
-    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
-  </div>
+# Konnect - A Fintech Bank Application
 
-  <h3 align="center">A Fintech Bank Application</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
-
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Table of Contents
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
@@ -27,17 +8,17 @@
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Code Snippets to Copy](#snippets)
 6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+7. 🚀 [More projects](#more)
 
 ## 🚨 Tutorial
 
-## <a name="introduction">🤖 Introduction</a>
+## 🤖 Introduction
 
-Built with Next.js, Konnect is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether. 
+Built with Next.js, Konnect is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+[![Join our Discord community](https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e)](https://discord.com/invite/n6EdbFJ)
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## ⚙️ Tech Stack
 
 - Next.js
 - TypeScript
@@ -50,7 +31,7 @@ Built with Next.js, Konnect is a financial SaaS platform that connects to multip
 - Chart.js
 - ShadCN
 
-## <a name="features">🔋 Features</a>
+## 🔋 Features
 
 👉 **Authentication**: An ultra-secure SSR authentication with proper validations and authorization
 
@@ -68,13 +49,13 @@ Built with Next.js, Konnect is a financial SaaS platform that connects to multip
 
 👉 **Responsiveness**: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms.
 
-and many more, including code architecture and reusability. 
+and many more, including code architecture and reusability.
 
-## <a name="quick-start">🤸 Quick Start</a>
+## 🤸 Quick Start
 
 Follow these steps to set up the project locally on your machine.
 
-**Prerequisites**
+### Prerequisites
 
 Make sure you have the following installed on your machine:
 
@@ -82,14 +63,14 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+### Cloning the Repository
 
 ```bash
 git clone https://github.com/adrianhajdin/banking.git
 cd banking
 ```
 
-**Installation**
+### Installation
 
 Install the project dependencies using npm:
 
@@ -97,7 +78,7 @@ Install the project dependencies using npm:
 npm install
 ```
 
-**Set Up Environment Variables**
+### Set Up Environment Variables
 
 Create a new file named `.env` in the root of your project and add the following content:
 
@@ -131,7 +112,7 @@ DWOLLA_ENV=sandbox
 
 Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the [Appwrite](https://appwrite.io/?utm_source=youtube&utm_content=reactnative&ref=JSmastery), [Plaid](https://plaid.com/) and [Dwolla](https://www.dwolla.com/)
 
-**Running the Project**
+### Running the Project
 
 ```bash
 npm run dev
@@ -139,7 +120,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="snippets">🕸️ Snippets</a>
+## 🕸️ Code Snippets
 
 <details>
 <summary><code>.env.example</code></summary>
@@ -1135,8 +1116,9 @@ export default Copy;
 
 </details>
 
-<details>
-<summary><code>PaymentTransferForm.tsx</code></summary>
+### `PaymentTransferForm.tsx`
+<details markdown="1">
+<summary>Show code</summary>
 
 ```typescript
 "use client";
@@ -1398,8 +1380,7 @@ export default PaymentTransferForm;
 
 </details>
 
-<details>
-<summary><code>Missing from the video (top right on the transaction list page) BankDropdown.tsx</code></summary>
+### `BankDropdown.tsx` (Missing from the video - top right on the transaction list page)
 
 ```typescript
 "use client";
@@ -1606,8 +1587,8 @@ export const Category = ({ category }: CategoryProps) => {
 
 </details>
 
-## <a name="links">🔗 Links</a>
+## 🔗 Links
 
-Assets used in the project can be found [here](https://drive.google.com/file/d/1TVhdnD97LajGsyaiNa6sDs-ap-z1oerA/view?usp=sharing)
+Assets used in the project can be found in the [project assets folder](https://drive.google.com/file/d/1TVhdnD97LajGsyaiNa6sDs-ap-z1oerA/view?usp=sharing)
 
-## <a name="more">🚀 More</a>
+## 🚀 More projects
